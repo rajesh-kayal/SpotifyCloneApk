@@ -1,0 +1,88 @@
+        body {
+            background-image: url('../images/bg1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .container {
+            background-color: rgba(34, 34, 34, 0.8);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1s;
+        }
+
+        .form-label {
+            color: #ffffff;
+        }
+
+        .form-control {
+            background-color: #333333;
+            border-color: #1db954;
+            color: #ffffff;
+        }
+
+        .form-control::placeholder {
+            color: #ffffff;
+        }
+
+        .form-control:focus {
+            box-shadow: 0 0 0 0.2rem rgba(29, 185, 84, 0.25);
+        }
+
+        .form-check-input {
+            background-color: #333333;
+            border-color: #1db954;
+        }
+
+        .form-check-label {
+            color: #ffffff;
+        }
+
+        .btn-primary {
+            background-color: #1db954;
+            border-color: #1db954;
+        }
+
+        .btn-primary:hover {
+            background-color: #1a9850;
+            border-color: #1a9850;
+        }
+
+        .btn-primary:focus {
+            box-shadow: 0 0 0 0.2rem rgba(29, 185, 84, 0.5);
+        }
+
+        .tagline {
+            text-align: center;
+            color: #ffffff;
+            margin-top: 20px;
+        }
+
+        .login-btn {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            text-align: center;
+            color: #ffffff;
+            text-decoration: none;
+            border: 1px solid #ffffff;
+            border-radius: 4px;
+            padding: 10px;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        .login-btn:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
